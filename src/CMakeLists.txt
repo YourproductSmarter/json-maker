@@ -1,6 +1,6 @@
 add_library(json_maker_api INTERFACE)
 target_include_directories(json_maker_api INTERFACE include)
-set_target_properties(json_maker_api PROPERTIES PUBLIC_HEADER include/json-maker/json-maker.h)
+set_target_properties(json_maker_api PROPERTIES PUBLIC_HEADER include/json-maker.h)
 
 add_library(json_maker STATIC)
 target_sources(json_maker PUBLIC json-maker.c)
